@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(88, 45, 45);
+}
+
+h1 {
+    width: fit-content;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Tilt Prism', cursive;
+    background-color: #bb8e12;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+form {
+    border: 4px solid #bb8e12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    top: 100px;
+    border-radius: 15px;
+}
+
+#textfield {
+    width: 70%;
+    height: 40%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#submitBtn {
+    width: 30%;
+    height: 30%;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#showScreen {
+    width: 350px;
+    height: 70px;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Tilt Prism', cursive;
+}
+
+ul {
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+    background-color: rgb(173, 104, 104);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+footer {
+    position: absolute;
+    color: #fff;
+    background-color: rgb(8, 8, 8);
+    font-size: 20px;
+    top: 92vh;
+    width: 100%;
+    height: 8vh ;
+    padding: 20px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .fa-brands {
+    font-size: 40px;
+    color: #fff;
+}
